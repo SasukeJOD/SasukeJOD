@@ -186,5 +186,18 @@ h2 {
   background: #080e2b;
   color: #38bdf8;
   text-decoration: none;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* space between name and image */
+}
+
+h1 img {
+    width: 60px;      /* adjust size here */
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
 }
